@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Newsitems from './newsitems';
+import Newsitems from './Newsitems';
 
 export default function Newsboard() {
     const [articles, setArticles] = useState([]);
