@@ -1,5 +1,7 @@
 import React from 'react';
 
+export default function newsitems() {
+
 const Newsitems = ({ title, description, imageUrl, url }) => {
     return (
         <div>
@@ -15,4 +17,4 @@ const Newsitems = ({ title, description, imageUrl, url }) => {
     );
 };
 
-export default Newsitems;
+}

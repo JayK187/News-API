@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import Newsitems from './Newsitems';
+import Newsitems from './newsitems';
 
-export default function Newsboard() {
+export default function newsboard() {
     const [articles, setArticles] = useState([]);
 
     useEffect(() => {

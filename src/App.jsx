@@ -1,14 +1,12 @@
-import React from 'react'
-import Navbar from "./Components/Navbar";
-import Newsboard from "./Components/Newsboard";
-import Newsitems from "./Components/Newsitems";
+import React from 'react';
+import Navbar from "./Components/navbar";
+import Newsboard from "./Components/newsboard";
 
 const App = () => {
   return (
     <div>
-      <Navbar></Navbar>
-      <Newsboard></Newsboard>
-      <Newsitems></Newsitems>
+      <Navbar />
+      <Newsboard />
     </div>
   )
 }
