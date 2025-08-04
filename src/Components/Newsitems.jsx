@@ -1,8 +1,6 @@
 import React from 'react';
 
-export default function newsitems() {
-
-const Newsitems = ({ title, description, imageUrl, url }) => {
+const newsitems = ({ title, description, imageUrl, url }) => {
     return (
         <div>
             <div className="card bg-dark text-light mb-3 d-inline-block my-3 mx-3 py-3 px-3" style={{ width: "345px" }}>
@@ -17,4 +15,4 @@ const Newsitems = ({ title, description, imageUrl, url }) => {
     );
 };
 
-}
+export default newsitems;
